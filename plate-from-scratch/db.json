@@ -1,0 +1,43 @@
+{ 
+  "products": [
+    {
+      "id": 1,
+      "name": "Samosa",
+      "description": "On it differed repeated wandered required in. Then girl neat why yet knew rose spot./n Moreover property we he kindness greatest be oh striking laughter. In me he at collecting affronting principles apartments. Has visitor law attacks pretend you calling own excited painted. Contented attending smallness it oh ye unwilling.",
+      "imageUrl": "https://static.wixstatic.com/media/84428b_aec5877604ff494295b3af5af0b27a67~mv2.png",
+      "price": 5.99
+    },
+    {
+      "id": 2,
+      "name": "Fried Potato",
+      "description": "Why end might ask civil again spoil. She dinner she our horses depend. Remember at children by reserved to vicinity. In affronting unreserved delightful simplicity ye. Law own advantage furniture continual sweetness bed agreeable perpetual",
+      "imageUrl": "https://static.wixstatic.com/media/84428b_aec5877604ff494295b3af5af0b27a67~mv2.png",
+      "price": 9.99
+    },
+
+    {
+      "id": 3,
+      "name": "Quesadilla",
+      "description": "He my polite be object oh change. Consider no mr am overcame yourself throwing sociable children. Hastily her totally conduct may. My solid by stuff first smile fanny. Humoured how advanced mrs elegance sir who.",
+      "imageUrl": "https://static.wixstatic.com/media/84428b_aec5877604ff494295b3af5af0b27a67~mv2.png",
+      "price": 12.99
+    },
+
+    {
+      "id": 4,
+      "name": "Pasta",
+      "description": "In alteration insipidity impression by travelling reasonable up motionless. Of regard warmth by unable sudden garden ladies. No kept hung am size spot no. Likewise led and dissuade rejoiced welcomed husbands boy",
+      "imageUrl": "https:db//static.wixstatic.com/media/84428b_aec5877604ff494295b3af5af0b27a67~mv2.png",
+      "price": 13.99
+    },
+
+    {
+      "id": 5,
+      "name": "Combo Plate",
+      "description": "Certainty listening no no behaviour existence assurance situation is. Because add why not esteems amiable him. Interested the unaffected mrs law friendship add principles. Indeed on people do merits to. Court heard which up above hoped grave do.",
+      "imageUrl": "https://static.wixstatic.com/media/84428b_aec5877604ff494295b3af5af0b27a67~mv2.png",
+      "price": 15
+    }
+ ],
+"cart": []
+}

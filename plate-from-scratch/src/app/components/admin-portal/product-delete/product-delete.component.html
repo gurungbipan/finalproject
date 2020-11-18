@@ -1,0 +1,12 @@
+<div>
+    <label>Product Id</label>
+    <input type="text" #prodId/>
+    <input type="button" value="Delete Product" 
+    (click)="deleteProduct(prodId.value)"/>
+    <br/>
+    {{result}}
+</div>
+<a class="btn btn-info" [routerLink]="['/view-all']">View All</a>
+<a class="btn btn-success" [routerLink]="['/product-store']">Add Product</a>
+<a class="btn btn-danger" [routerLink]="['/product-delete']">Delete Product</a>
+<a class="btn btn-primary" [routerLink]="['/product-update']">Update Product</a>

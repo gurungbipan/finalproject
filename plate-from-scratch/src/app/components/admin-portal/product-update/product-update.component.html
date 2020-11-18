@@ -1,0 +1,26 @@
+
+<br />
+<hr />
+<a class="btn btn-info" [routerLink]="['/view-all']">View All</a>
+<a class="btn btn-success" [routerLink]="['/product-store']">Add Product</a>
+<a class="btn btn-danger" [routerLink]="['/product-delete']">Delete Product</a>
+<a class="btn btn-primary" [routerLink]="['/product-update']">Update Product</a>
+<br />
+<br />
+<hr />
+<div>
+    <form [formGroup]="productRef" (ngSubmit)="updateProductDetails()">
+        <label>Product Id</label>
+        <input type="text" formControlName="_id"/><br/>
+        <label>Product Name</label>
+        <input type="text" formControlName="name"/><br/>
+        <label>Product Description</label>
+        <input type="text" formControlName="description"/><br/>
+        <label>Product Image URL</label>
+        <input type="text" formControlName="imageUrl"/><br/>
+        <label>Product Price</label>
+        <input type="text" formControlName="price"/><br/>
+        <input type="submit" value="Update Product"/>
+    </form>
+    {{result}}
+</div>

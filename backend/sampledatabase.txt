@@ -1,0 +1,37 @@
+db.Product.insert([
+  {
+    "_id": 1,
+    "name": "Samosa",
+    "description": "A fried or baked pastry with a savoury filling, such as spiced potatoes, onions, peas, cheese, beef and other meats, or lentils. It may take different forms, including triangular, cone, or half-moon shapes, depending on the region.",
+    "imageUrl": "https://image.freepik.com/free-photo/samosa_57665-4241.jpg",
+    "price": 5.99
+  },
+  {
+    "_id": 2,
+    "name": "Fried Potato",
+    "description": "In a large skillet over medium-high heat, heat oils. Add potatoes and season with rosemary, salt and pepper. Cook, undisturbed, until potatoes are golden and crusty underneath, 4 to 5 minutes. Flip potatoes and cook until golden on other sides, 4 to 5 minutes more.",
+    "imageUrl": "https://thumbs.dreamstime.com/z/fried-potatoes-wedges-pan-wooden-table-136257123.jpg",
+    "price": 9.99
+  },
+  {
+    "_id": 3,
+    "name": "Quesadilla",
+    "description": "Mexican dish and type of sandwich, consisting of a tortilla that is filled primarily with cheese, and sometimes meats and spices, and then cooked on a griddle. Traditionally, a corn tortilla is used, but it can also be made with a flour tortilla, particularly in northern Mexico and the United States",
+    "imageUrl": "https://st2.depositphotos.com/1373322/6195/i/600/depositphotos_61957083-stock-photo-quesadilla-with-vegetables-and-sauces.jpg",
+    "price": 12.99
+  },
+  {
+    "_id": 4,
+    "name": "Pasta",
+    "description": "Food typically made from an unleavened dough of wheat flour mixed with water or eggs, and formed into sheets or other shapes, then cooked by boiling or baking.",
+    "imageUrl": "https://image.freepik.com/free-photo/penne-pasta_1339-934.jpg",
+    "price": 13.99
+  },
+  {
+    "_id": 5,
+    "name": "Combo Plate",
+    "description": "Spoon chicken and mushrooms to one side of skillet and add rice to the other side. Let toast 1 minute, then stir until combined. Pour over chicken broth and heavy cream and bring to a simmer. Let simmer until rice is tender, about 20 minutes, until rice is tender and creamy.",
+    "imageUrl": "https://tucsonfoodie.com/wp-content/uploads/2019/06/TF-Fried-Rice-Hut-chicken-wing-combo-2653.jpg",
+    "price": 15
+  }
+])

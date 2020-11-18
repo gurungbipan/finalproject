@@ -1,0 +1,18 @@
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+    <h2 class="my-0 mr-md-auto font-weight-normal">
+    <strong>Welcome Admin</strong>
+    </h2>
+    <nav class="my-2 my-md-0 mr-md-3">
+      <a class="p-2 text-dark" [routerLink]="['/shop']">Back to Home </a>
+    </nav>
+<!--   
+    <a class="btn btn-outline-primary" [routerLink]="['/register']"></a>
+    <a class="btn btn-outline-secondary" [routerLink]="['/login']"></a> -->
+  </div>
+
+  <h5>What would you like to do today?</h5>
+    <a class="btn btn-info" [routerLink]="['/view-all']">View All</a>
+    <a class="btn btn-success" [routerLink]="['/product-store']">Add Product</a>
+    <a class="btn btn-danger" [routerLink]="['/product-delete']">Delete Product</a>
+    <a class="btn btn-primary" [routerLink]="['/product-update']">Update Product</a>
+    

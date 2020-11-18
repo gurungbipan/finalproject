@@ -1,0 +1,28 @@
+<a class="btn btn-info" [routerLink]="['/view-all']">View All</a>
+<a class="btn btn-success" [routerLink]="['/product-store']">Add Product</a>
+<a class="btn btn-danger" [routerLink]="['/product-delete']">Delete Product</a>
+<a class="btn btn-primary" [routerLink]="['/product-update']">Update Product</a>
+
+<div>
+    <input type="button" value="Load Product Details" (click)="loadProductInfo()"/>
+    <div *ngIf="flag">
+            <table border="1">
+                    <tr>
+                        <th>Product Id</th>
+                        <th>Product Name</th>
+                        <th>Product Desc</th>
+                        <th>Product Image Url</th>
+                        <th>Product Price</th>
+                        
+                    </tr>
+                    <tr *ngFor="let pp of products">
+                        <td>{{pp._id}}</td>
+                        <td>{{pp.name}}</td>
+                        <td>{{pp.description}}</td>
+                        <td>{{pp.imageUrl}}</td>
+                        <td>{{pp.price}}</td>
+                    </tr>
+            </table>
+    </div>
+</div>
+
