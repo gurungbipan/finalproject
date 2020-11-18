@@ -10,6 +10,7 @@ import { AdminPortalComponent } from './components/admin-portal/admin-portal.com
 import { ViewAllComponent } from './components/admin-portal/view-all/view-all.component'
 import { ProductDeleteComponent } from './components/admin-portal/product-delete/product-delete.component';
 import { ProductUpdateComponent } from './components/admin-portal/product-update/product-update.component';
+
 const routes: Routes = [ 
   { path: '', redirectTo:'/shop',pathMatch:'full'},
   { path:'login', component:LoginComponent},

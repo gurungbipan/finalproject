@@ -3,7 +3,7 @@ constructor(public _id: number,
 public name: string,
 public description: string,
 public price: number,
-public imageUrl: string){}
+public imageUrl: 'https://static.wixstatic.com/media/84428b_aec5877604ff494295b3af5af0b27a67~mv2.png'){}
 
 }
 // constructor( _id:number, name, description = '', price = 0, imageUrl = 'https://static.wixstatic.com/media/84428b_aec5877604ff494295b3af5af0b27a67~mv2.png'){

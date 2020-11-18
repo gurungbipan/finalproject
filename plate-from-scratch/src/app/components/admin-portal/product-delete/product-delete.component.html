@@ -1,12 +1,35 @@
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+    <h5 class="my-0 mr-md-auto font-weight-normal">
+    <strong>Please Enter the Product ID to Delete the Product</strong>
+    </h5>
+    <nav class="my-2 my-md-0 mr-md-3">
+      <a class="p-2 text-dark" [routerLink]="['/shop']">Back to Home </a>
+    </nav>
+</div>
+
+<br />
+<hr />
 <div>
-    <label>Product Id</label>
+    <label>Product Id : </label>
     <input type="text" #prodId/>
-    <input type="button" value="Delete Product" 
+    
+    <br /> <hr />
+    <input type="button" value="Confirm Delete" 
     (click)="deleteProduct(prodId.value)"/>
     <br/>
     {{result}}
 </div>
-<a class="btn btn-info" [routerLink]="['/view-all']">View All</a>
-<a class="btn btn-success" [routerLink]="['/product-store']">Add Product</a>
-<a class="btn btn-danger" [routerLink]="['/product-delete']">Delete Product</a>
-<a class="btn btn-primary" [routerLink]="['/product-update']">Update Product</a>
+
+<hr />
+<h5>You can do more here: </h5>
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-lg">
+    
+    
+    <div style="width:800px; margin:0 auto;">
+        <a class="btn btn-info" [routerLink]="['/view-all']">View All</a>
+        <a class="btn btn-success" [routerLink]="['/product-store']">Add Product</a>
+        <!-- <a class="btn btn-danger" [routerLink]="['/product-delete']">Delete Product</a> -->
+        <a class="btn btn-primary" [routerLink]="['/product-update']">Update Product</a>
+    </div>
+</div>
+

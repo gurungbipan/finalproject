@@ -36,7 +36,7 @@ var StoreProductInfo = (req,res)=> {
             res.json({"msg":"Id must be unique"});
         }else {
     // res.send("Record stored successfully in Db");
-    res.json({"msg":"Record stored successfully"});
+            res.json({"msg":"Record stored successfully"});
         }
     });
 
