@@ -10,7 +10,7 @@ Step 1.3: Open new terminal
 Step 1.4: Run command "mongo" 
 Step 1.5: Run command "use finalprojectdb"
 
-Stqp 1.6: Now, as you are inside the DB finalprojectdb, please insert the following sample value to the collection called 
+Step 1.6: Now, as you are inside the DB finalprojectdb, please insert the following sample value to the collection called 
 		  "Product" by running following code:
 
 		db.Product.insert([
